@@ -32,6 +32,8 @@
             <div class="large-12 columns">
                 <div class="panel">
                     <h4>Environment Information:</h4><br/>
+                    <p>The instance IP is </em>
+                        <asp:Label ID="lblInstanceIp" runat="server"></asp:Label></em></p>
                     <p>The current server time is <em>
                         <asp:Label ID="lblTime" runat="server"></asp:Label></em></p>
                     <p>The current .NET version is <em>

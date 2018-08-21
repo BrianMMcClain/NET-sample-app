@@ -28,6 +28,7 @@ public partial class _Default : System.Web.UI.Page
         lblInstanceIndex.Text = Environment.GetEnvironmentVariable("INSTANCE_INDEX");
         lblInstanceStart.Text =  DateTime.Now.Subtract(TimeSpan.FromMilliseconds(Environment.TickCount)).ToString();
         lblBoundServices.Text = Environment.GetEnvironmentVariable("VCAP_SERVICES");
+        lblInstanceIp.Text = Environment.GetEnvironmentVariable("CF_INSTANCE_IP");
     }
     protected void btnKill_Click(object sender, EventArgs e)
     {
