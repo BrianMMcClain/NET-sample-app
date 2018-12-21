@@ -1,0 +1,9 @@
+---
+applications:
+- name: environment
+  memory: 1G
+  path: ./ViewEnvironment/
+  stack: windows2016
+  buildpacks:
+    - hwc_buildpack
+
